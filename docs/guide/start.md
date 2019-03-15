@@ -197,7 +197,7 @@ var $f = {},model = {};
 
 //$f为表单api
 $f = window.formCreate.create(
-    //表单生成规则
+    //表单生成规则sb
     [
         window.formCreate.maker.input('商品名称','goods_name',''),
         window.formCreate.maker.date('创建时间','created_at')
